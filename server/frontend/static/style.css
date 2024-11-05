@@ -124,3 +124,17 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.text-center p {
+    color: darkturquoise;
+}
+.text-center a {
+  text-decoration: none;
+    color: darkturquoise;
+}
+
+@media (max-width: 767px) {
+  .border-start {
+    display: none;
+  }
+}
